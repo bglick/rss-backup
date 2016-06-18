@@ -1,0 +1,28 @@
+{
+  "name": "rss-backup",
+  "version": "1.0.0",
+  "description": "Backup RSS Feed to Amazon S3 Bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bglick/rss-backup.git"
+  },
+  "keywords": [
+    "rss",
+    "aws"
+  ],
+  "author": "Brian Glick",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bglick/rss-backup/issues"
+  },
+  "homepage": "https://github.com/bglick/rss-backup#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.4.0",
+    "request-promise": "^3.0.0",
+    "xml2js": "^0.4.16"
+  }
+}
